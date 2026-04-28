@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS crud_iestpffaa;
+USE crud_iestpffaa;
+
+CREATE TABLE IF NOT EXISTS persona (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    edad INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
